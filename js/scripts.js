@@ -1,6 +1,12 @@
 var pizza = {diameter: 0, ingredient: 'none',
   slices: function(diameter) {
-    return this.diameter*4;
+    var randomizer = Math.floor(Math.random()* (10 - 1)+1);
+    if (this.ingredient === 'cheese') {
+      return (this.diameter*randomizer / 2);
+    } else {
+      return (this.diameter*randomizer *6);
+    }
+
   }
 };
 

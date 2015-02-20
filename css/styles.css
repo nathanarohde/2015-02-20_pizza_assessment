@@ -1,3 +1,30 @@
+.jumbotron {
+  background-color: #F2E98E;
+  border-color: #E7E7E7;
+}
+
+.jumbotron h2{
+  font-family: "Verdana Bold", Helvetica, Arial, sans-serif;
+}
+
+.group-title{
+  font-family: "Verdana Bold", Helvetica, Arial, sans-serif;
+}
+
+.row {
+  padding:0px 15px;
+  background-color: #D87A6E;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius:5px;
+}
+
 #result {
   display: none;
+  padding: 20px;
+}
+
+.col-sm-3{
+
 }

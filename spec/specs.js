@@ -16,11 +16,11 @@ describe('Pizza', function() {
     });
   });
   describe('pizza.slices', function() {
-    it('displays the number of slices', function() {
+    it('displays if slices return an integer', function() {
       var testPizza = Object.create(pizza);
       testPizza.diameter = 24;
       testPizza.ingredients='test3';
-      expect(testPizza.slices()).to.equal(96);
+      expect(typeof(testPizza.slices())).to.equal('number');
     });
   });
 
